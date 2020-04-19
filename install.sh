@@ -1,8 +1,10 @@
 clear
 termux-setup-storage
 termux-setup-storage
-termux-setup-storage
+sleep 5
+pkg install python -y
 python .ELKABOUS.py
+pkg install ruby -y
 mv .start.sh start.sh
 clear
 chmod +x *
